@@ -31,4 +31,4 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Lint with flake8
-        run: flake8 . --max-line-length=120 --ignore F405,F403 --statistics 
+        run: flake8 *.py --max-line-length=120 --ignore F405,F403 --statistics 
